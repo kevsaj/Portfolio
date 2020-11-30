@@ -1,1 +1,28 @@
 # Portfolio
+
+## Table of Contents
+
+This is my README for Assignment 2
+* [Installation](#installation)
+* [Usage](#Usage)
+* [Credits](#Credits)
+* [License](#License)
+
+Page is live: [HERE](https://kevsaj.github.io/Portfolio/)
+![Image of site](/img/code.jpg "demo")
+
+
+# Installation
+* Learn Everything
+* Get Motivated
+* Create Portfolio to meet criteria
+* Upload to Github 
+
+# Usage
+* To practice EVERYTHING
+
+# Credits
+* The Universe - thanks
+
+# License
+* [MIT License](https://github.com/kevsaj/Portfolio/blob/main/LICENSE)
