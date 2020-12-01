@@ -1,10 +1,10 @@
 body {
-    color: #222222;
-    font-family: "Open Sans", "Helvetica Neue", sans-serif;
-    margin: 0;
-    display: block;
-    font-size: 1.2em;
-    overflow-x: hidden;
+  color: #222222;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  display: block;
+  font-size: 1.2em;
+  overflow-x: hidden;
 }
 
 .content-footer,
@@ -91,40 +91,40 @@ body {
 }
 
 .masthead-intro {
-    margin-bottom: 0.1em;
-    font-size: 2em;
-    color: #ffffff;
+  margin-bottom: 0.1em;
+  font-size: 2em;
+  color: #ffffff;
 }
 
 .masthead-heading {
-    margin-top: -0.2em;
-    font-weight: bold;
-    font-size: 6em;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #ffffff;
+  margin-top: -0.2em;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .details {
-    max-width: 38em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
 }
 
-.details > p {
-    font-weight: 300;
-    letter-spacing: 0.05em;
+.details>p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
-.details > h2 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 2em 0 1em 0;
+.details>h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 2em 0 1em 0;
 }
 
-section > h1 {
-    margin-top: 2em;
+section>h1 {
+  margin-top: 2em;
 }
 
 /* CONTACT */
@@ -136,7 +136,8 @@ section > h1 {
   position: relative;
 }
 
-input, textarea {
+input,
+textarea {
   width: 6.5em;
   color: white;
   font-size: inherit;
@@ -147,7 +148,8 @@ input, textarea {
   transition: background-color 0.3s ease-in-out;
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
   outline: none;
 }
 
@@ -179,7 +181,8 @@ input:focus, textarea:focus {
   transform-origin: bottom right;
 }
 
-input:focus ~ .bottom, textarea:focus ~ .bottom {
+input:focus~.bottom,
+textarea:focus~.bottom {
   transform-origin: bottom left;
   transform: scaleX(1);
 }
@@ -189,7 +192,8 @@ input:focus ~ .bottom, textarea:focus ~ .bottom {
   transform-origin: top right;
 }
 
-input:focus ~ .right, textarea:focus ~ .right {
+input:focus~.right,
+textarea:focus~.right {
   transform-origin: bottom right;
   transform: scaleY(1);
 }
@@ -199,7 +203,8 @@ input:focus ~ .right, textarea:focus ~ .right {
   transform-origin: top left;
 }
 
-input:focus ~ .top, textarea:focus ~ .top {
+input:focus~.top,
+textarea:focus~.top {
   transform-origin: top right;
   transform: scaleX(1);
 }
@@ -209,7 +214,8 @@ input:focus ~ .top, textarea:focus ~ .top {
   transform-origin: bottom left;
 }
 
-input:focus ~ .left, textarea:focus ~.left {
+input:focus~.left,
+textarea:focus~.left {
   transform-origin: top left;
   transform: scaleY(1);
 }
@@ -241,31 +247,46 @@ label {
   margin-top: 8px;
   margin-bottom: 15px;
 }
+
 /* Style inputs with type="text", select elements and textareas */
 form {
   padding-bottom: 4em;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   border-width: 0px;
   font-size: 16px;
   cursor: pointer;
-  width: 500px; /* Full width */
-  padding: 12px; /* Some padding */  
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 500px;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-input[type=email], select, textarea {
+input[type=email],
+select,
+textarea {
   font-size: 16px;
   border-width: 0px;
   cursor: pointer;
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */  
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -346,7 +367,7 @@ footer i {
 }
 
 .backtotop:hover {
-background-color: #04C2C9;
+  background-color: #04C2C9;
 }
 
 .backtotop .icon-keyboard_arrow_up {
@@ -355,7 +376,7 @@ background-color: #04C2C9;
 }
 
 .backtotop .icon-keyboard_arrow_up:hover {
-  color:  #E31B6D;
+  color: #E31B6D;
   transition: background .5s;
 }
 
@@ -385,7 +406,7 @@ background-color: #04C2C9;
 }
 
 #myName {
-  color:  #D3D3D3;
+  color: #D3D3D3;
 }
 
 #year {
@@ -398,7 +419,7 @@ background-color: #04C2C9;
   justify-content: space-around;
 }
 
-.flex-container2 > div {
+.flex-container2>div {
   padding-bottom: 4rem;
 }
 
@@ -408,41 +429,9 @@ h3 {
   text-align: center;
 }
 
-.fi {
-  text-align: center;
-}
-
-.spancss  {
+.spancss {
   font-size: 5em;
   padding-bottom: 1rem;
-}
-
-.fi  {
-  text-align: center;
-  font-size: 6rem;
-  color: #252934;
-}
-.fi i {
-  padding-bottom: 1.3rem;
-}
-
-.fi h3 {
-  text-align: center;
-  padding-bottom: 1rem;
-  color: #616161;
-  font-size: 1.4rem;
-}
-
-.fi > h3 {
-  padding-top: 1rem;
-  text-align: center;
-  color: #616161;
-  font-size: .5rem;
-}
-
-.fi-github {
-  content: /e900;
-  color: #fd3f93;
 }
 
 .media {
@@ -474,31 +463,31 @@ h3 {
 }
 
 .card-faces.front {
-   backface-visibility: hidden;
-   z-index: -1;
-   -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: -1;
+  -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -o-backface-visibility: hidden;
 
 }
 
 .test {
-   backface-visibility: visible;
-   -moz-backface-visibility: hidden;
+  backface-visibility: visible;
+  -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -o-backface-visibility: hidden;
 }
 
 .card-faces {
-   backface-visibility: visible;
-   -moz-backface-visibility: hidden;
+  backface-visibility: visible;
+  -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -o-backface-visibility: hidden;
 }
 
 .card-container {
-  width:500px;
-  height:400px;
+  width: 500px;
+  height: 400px;
   perspective: 900px;
   display: flex;
   flex-wrap: wrap;
@@ -520,11 +509,11 @@ h3 {
 .card1 {
   display: flex;
   flex-wrap: wrap;
-  position:relative;
+  position: relative;
   transition: 0.6s ease-in-out;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
-  box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 2px 2px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.15), 0 8px 8px rgba(0, 0, 0, 0.15);
   width: 100%;
   height: 400px;
   padding-bottom: 40px;
@@ -532,9 +521,9 @@ h3 {
 }
 
 .card-faces {
-  position:absolute;
-  height:100%;
-  width:100%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
   backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
