@@ -402,6 +402,11 @@ background-color: #04C2C9;
   padding-bottom: 4rem;
 }
 
+h3 {
+  margin: auto;
+  padding: 0%;
+  text-align: center;
+}
 
 .fi {
   text-align: center;
@@ -436,12 +441,14 @@ background-color: #04C2C9;
 }
 
 .fi-github {
-  content: "/e900";
+  content: /e900;
   color: #fd3f93;
 }
 
 .media {
   text-align: center;
+  justify-content: space-around;
+
 }
 
 .media a {
