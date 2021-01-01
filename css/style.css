@@ -153,10 +153,13 @@ textarea:focus {
   outline: none;
 }
 
+.lazyVid {
+  width: fill;
+}
 
 .formpadding span {
   position: absolute;
-  background-color: #3cefff;
+  background-color: yellow;
   transition: transform 0.5s ease;
 }
 
@@ -226,7 +229,7 @@ label {
 }
 
 .wrapper3 {
-  background-color: #252934;
+  background-color: #260141;
   padding-top: 2.2em;
   padding-left: 4em;
   padding-right: 4em;
@@ -295,7 +298,7 @@ input[type=submit] {
   cursor: pointer;
   display: inline-block;
   border: 0.1em solid #ffffff;
-  background-color: #252934;
+  background-color: #260141;
   padding: 10px 30px;
   margin: 5px 0 0 0;
   box-sizing: border-box;
@@ -310,14 +313,14 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   cursor: pointer;
-  background-color: #02C2C7;
+  background-color: yellow;
 }
 
 /* Add a background color and some padding around the form */
 .containerform {
   display: flex;
   justify-content: center;
-  background-color: #252934;
+  background-color: #260141;
   padding-top: 20px;
   padding-left: 22%;
   padding-right: 22%;
@@ -338,7 +341,7 @@ input[type=submit]:hover {
 
 /* FOOTER */
 footer {
-  background-color: #1B242F;
+  background-color: #0e0118;
   padding: 70px 0 50px 0;
   position: relative;
 }
@@ -367,7 +370,7 @@ footer i {
 }
 
 .backtotop:hover {
-  background-color: #04C2C9;
+  background-color: yellow;
 }
 
 .backtotop .icon-keyboard_arrow_up {
@@ -396,7 +399,7 @@ footer i {
 }
 
 .media span:hover {
-  color: #04C2C9;
+  color: yellow;
   transition: all .3s;
 }
 
@@ -410,7 +413,7 @@ footer i {
 }
 
 #year {
-  color: #04C2C9;
+  color: yellow;
 }
 
 .flex-container2 {
@@ -452,14 +455,14 @@ h3 {
 }
 
 .media span:hover {
-  color: #04C2C9;
+  color: yellow;
   transition: all .3s;
 }
 
 /* cards */
 
 .card-faces.front:hover span {
-  color: #02C2C7;
+  color: yellow;
 }
 
 .card-faces.front {
@@ -522,10 +525,57 @@ h3 {
 
 .card-faces {
   position: absolute;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+}
+
+.cardp {
+  padding-top: 55px;
+  text-align: center;
   width: 100%;
   backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -o-backface-visibility: hidden;
 }
+
+.projects {
+  position: relative;
+  width: 100%;
+  box-shadow: 0px 0px 2px 2px #E0E0E0;
+  overflow: hidden;
+  border-bottom: solid #E31B6D;
+}
+
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: .7em;
+  padding-right: .7em;
+  padding-bottom: 8em;
+}
+
+.project-container>div {
+  width: 20%;
+}
+
+.projectbutton {
+  text-align: center;
+  height: auto;
+  padding-top: 27px;
+}
+
+.pcontainer {
+  min-height: 150px;
+}
+
+ iframe {
+   max-width: 100%;
+   max-height: 100%;
+ }
