@@ -8,8 +8,10 @@ This is my README for Assignment 2
 * [Credits](#Credits)
 * [License](#License)
 
-Page is live: [HERE](https://kevsaj.github.io/Portfolio/)
+
 ![Image of site](/img/logo.gif "demo")
+
+Page is live: [HERE](https://kevsaj.github.io/Portfolio/)
 
 
 # Installation
