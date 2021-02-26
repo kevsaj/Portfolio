@@ -11,7 +11,7 @@ This is my README for Assignment 2
 
 ![Image of site](/img/logo.gif "demo")
 
-Page is live: [HERE](https://kevsaj.github.io/Portfolio/)
+Page is live: [HERE](https://kevsaj.github.io/Portfolio/index.html)
 
 
 # Installation
