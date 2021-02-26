@@ -85,7 +85,7 @@ body {
 
 .masthead {
   padding: 6em 0;
-  background-image: url('/img/logo.gif');
+  background-image: url('../img/logo.gif');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -603,7 +603,7 @@ img {
 
 .card-image {
   grid-area: image;
-  background: url("/img/SpaceBook.png");
+  background: url("../img/SpaceBook.png");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
@@ -672,7 +672,7 @@ img {
 
 /*card2*/
 .card-image.card2 {
-  background: url("/img/Screenshot_pp.png");
+  background: url("../img/Screenshot_pp.png");
   background-size: cover;
 }
 
@@ -691,7 +691,7 @@ img {
 
 /*card3*/
 .card-image.card3 {
-  background: url("/img/06-server.png");
+  background: url("../img/06-server.png");
   background-size: cover;
 }
 

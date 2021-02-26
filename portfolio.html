@@ -63,7 +63,7 @@
   </div>
   <section class="projects-container">
     
-    <div class="card">
+    <div class="card" href="https://github.com/kevsaj/Spacebook" target="_blank" rel="noopener" >
       <div class="card-image" src="./img/SpaceBook.png" alt="website"></div>
       <div class="card-text">
         <span class="date">SASS, Tailwind CSS, REST API, MySQL</span>
@@ -77,7 +77,7 @@
           <div class="type">Github Repo</div></a></div>
         </div>
         <div class="stat">
-          <div class="value"><a href="https://spacebookx.herokuapp.com/" target="_blank" rel="noopener"aria-label="Live Page" target="_blank" rel="noopener">
+          <div class="value"><a href="https://spacebookx.herokuapp.com/" target="_blank" rel="noopener" aria-label="Live Page" target="_blank" rel="noopener">
             <span class="iconify" data-icon="tabler:live-photo" data-inline="false"></span>
           <div class="type">Live Page</div></a></div>
         </div>
@@ -145,6 +145,15 @@
     <p id="smalltext">
       <span id="myName">Kevin Sajan</span><span id="year"> &copy;2020</span>
   </footer>
+  <script src="vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"), {
+        glare: true,
+        reverse: true,
+        "max-glare": 0.5
+      });
+  </script>
+
 
 
 </body>
