@@ -1,12 +1,9 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import React from "react";
 
-import Navbar from "../components/Navbars/AuthNavbar.js";
-import Footer from "../components/Footers/Footer.js";
+import Navbar from "components/Navbars/AuthNavbar.js";
+import Footer from "components/Footers/Footer.js";
 
-
-export default function Index() {
+export default function Profile() {
   return (
     <>
       <Navbar transparent />
@@ -53,7 +50,7 @@ export default function Index() {
                     <div className="relative">
                       <img
                         alt="..."
-                        src="https://i.postimg.cc/m2GRvQYn/Fox-Mulder.jpg"
+                        src={require("assets/img/team-2-800x800.jpg")}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
