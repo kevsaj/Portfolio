@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import React from "react";
+import Link from "next/link";
 
 import Navbar from "../components/Navbars/AuthNavbar.js";
 import Footer from "../components/Footers/Footer.js";
@@ -78,15 +79,15 @@ export default function Index() {
                       </div>
                       <div className="mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                          24
+                          7
                         </span>
-                        <span className="text-sm text-gray-500">Github Repositories</span>
+                        <span className="text-sm text-gray-500">Languages</span>
                       </div>
                       <div className="lg:mr-4 p-3 text-center">
                         <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
                           1
                         </span>
-                        <span className="text-sm text-gray-500">Deployed Apps</span>
+                        <span className="text-sm text-gray-500">Apps</span>
                       </div>
                     </div>
                   </div>
@@ -114,13 +115,14 @@ export default function Index() {
                       <p className="mb-4 text-lg leading-relaxed text-gray-800">
                         Full Stack Web Developer employing a background in psychology to build a more intuitive user experience on the web. Known as an innovative problem-solver passionate about developing apps, with a focus on mobile-first design and development. Strengths in meeting deadlines, creativity, and teamwork.
                       </p>
-                      <a
-                        href="#pablo"
-                        className="font-normal text-blue-500"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        Show more
-                      </a>
+                      <Link href="/portfolio.html">
+                        <a
+                          href="/portfolio.html"
+                          className="font-normal text-blue-500"
+                        >
+                          Show more
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
