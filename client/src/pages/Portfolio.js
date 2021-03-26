@@ -8,128 +8,125 @@ import Footer from "../components/Footers/Footer.js";
 export default function Index() {
   return (
     <>
-      <Navbar transparent />
-      <main className="profile-page">
-        <section className="relative block h-500-px">
-          <div
-            className="absolute top-0 w-full h-full bg-center bg-cover"
-            style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')",
-            }}
-          >
-            <span
-              id="blackOverlay"
-              className="w-full h-full absolute opacity-50 bg-black"
-            ></span>
-          </div>
-          <div
-            className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-16"
-            style={{ transform: "translateZ(0)" }}
-          >
-            <svg
-              className="absolute bottom-0 overflow-hidden"
-              xmlns="http://www.w3.org/2000/svg"
-              preserveAspectRatio="none"
-              version="1.1"
-              viewBox="0 0 2560 100"
-              x="0"
-              y="0"
-            >
-              <polygon
-                className="text-gray-300 fill-current"
-                points="2560 0 2560 100 0 100"
-              ></polygon>
-            </svg>
-          </div>
-        </section>
-        <section className="relative py-16 bg-gray-300">
-          <div className="container mx-auto px-4">
-            <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
-              <div className="px-6">
-                <div className="flex flex-wrap justify-center">
-                  <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
-                    <div className="relative">
-                      <img
-                        alt="..."
-                        src="https://i.postimg.cc/m2GRvQYn/Fox-Mulder.jpg"
-                        className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
-                      />
-                    </div>
-                  </div>
-                  <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
-                    <div className="py-6 px-3 mt-32 sm:mt-0">
-                      <button
-                        className="bg-gray-800 active:bg-gray-700 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
-                        type="button"
-                      >
-                        <a href="https://github.com/kevsaj" target="_blank" rel="noreferrer">Connect</a>
-                      </button>
-                    </div>
-                  </div>
-                  <div className="w-full lg:w-4/12 px-4 lg:order-1">
-                    <div className="flex justify-center py-4 lg:pt-4 pt-8">
-                      <div className="mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                          5
-                        </span>
-                        <span className="text-sm text-gray-500">Projects</span>
-                      </div>
-                      <div className="mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                          7
-                        </span>
-                        <span className="text-sm text-gray-500">Languages</span>
-                      </div>
-                      <div className="lg:mr-4 p-3 text-center">
-                        <span className="text-xl font-bold block uppercase tracking-wide text-gray-700">
-                          1
-                        </span>
-                        <span className="text-sm text-gray-500">Apps</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="text-center mt-12">
-                  <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2">
-                    Kevin Sajan
-                  </h3>
-                  <div className="text-sm leading-normal mt-0 mb-2 text-gray-500 font-bold uppercase">
-                    <i className="fas fa-map-marker-alt mr-2 text-lg text-gray-500"></i>{" "}
-                    Toronto, Ontario
-                  </div>
-                  <div className="mb-2 text-gray-700 mt-10">
-                    <i className="fas fa-briefcase mr-2 text-lg text-gray-500"></i>
-                    Full Stack Web Developer
-                  </div>
-                  <div className="mb-2 text-gray-700">
-                    <i className="fas fa-university mr-2 text-lg text-gray-500"></i>
-                    University of Toronto
-                  </div>
-                </div>
-                <div className="mt-10 py-10 border-t border-gray-300 text-center">
-                  <div className="flex flex-wrap justify-center">
-                    <div className="w-full lg:w-9/12 px-4">
-                      <p className="mb-4 text-lg leading-relaxed text-gray-800">
-                        Full Stack Web Developer employing a background in psychology to build a more intuitive user experience on the web. Known as an innovative problem-solver passionate about developing apps, with a focus on mobile-first design and development. Strengths in meeting deadlines, creativity, and teamwork.
-                      </p>
-                      <Link href="/portfolio.html">
-                        <a
-                          href="/portfolio.html"
-                          className="font-normal text-blue-500"
-                        >
-                          Show more
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      
+    <header class='masthead'>
+      <p class='masthead-intro'>Hi I'm</p>
+      <h1 class='masthead-heading'>Kevin Sajan</h1>
+    </header>
+
+    <nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"> </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="contact.html" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contact
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="contact.html">Email</a>
+              <a class="dropdown-item" href="contact.html">Github</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="contact.html">Linkedin</a>
             </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <div class="headings headingsabout" id="projects">
+        <h2>Portfolio</h2>
+    </div>
+    <section class="projects-container">
+      
+      <div class="card" href="https://github.com/kevsaj/Spacebook" target="_blank" rel="noopener" >
+        <div class="card-image" src="./img/SpaceBook.png" alt="website"></div>
+        <div class="card-text">
+          <span class="date">SASS, Tailwind CSS, REST API, MySQL</span>
+          <h2>SpaceBook</h2>
+          <p>Our own Social media platform - for Project 2</p>
+        </div>
+        <div class="card-stats">
+          <div class="stat">
+            <div class="value"><a href="https://github.com/kevsaj/Spacebook" target="_blank" rel="noopener" aria-label="Github"><span class="iconify" data-icon="jam:github"
+              data-inline="false"></span>
+            <div class="type">Github Repo</div></a></div>
           </div>
-        </section>
-      </main>
-      <Footer />
+          <div class="stat">
+            <div class="value"><a href="https://spacebookx.herokuapp.com/" target="_blank" rel="noopener" aria-label="Live Page" target="_blank" rel="noopener">
+              <span class="iconify" data-icon="tabler:live-photo" data-inline="false"></span>
+            <div class="type">Live Page</div></a></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image card2"></div>
+        <div class="card-text card2">
+          <span class="date">HTML, CSS, JavaScript</span>
+          <h2>PerfectPairings</h2>
+          <p>PerfectPairings will provide you with delicious food options and pair your selection with the perfect drink</p>
+        </div>
+        <div class="card-stats card2">
+          <div class="stat">
+            <div class="value"><a href="https://github.com/nagck/perfectpairings" target="_blank" rel="noopener" aria-label="Github"><span class="iconify" data-icon="jam:github"
+              data-inline="false"></span>
+            <div class="type">Github Repo</div></a></div>
+          </div>
+          <div class="stat">
+            <div class="value"><a href="https://nagck.github.io/perfectpairings/" target="_blank" rel="noopener"aria-label="Live Page" target="_blank" rel="noopener">
+              <span class="iconify" data-icon="tabler:live-photo" data-inline="false"></span>
+            <div class="type">Live Page</div></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+          <div class="card-image card3"></div>
+          <div class="card-text card3">
+            <span class="date">JavaScript</span>
+            <h2>Weather-Dashboard</h2>
+            <p>Interactive Weather Dashboard</p>
+          </div>
+          <div class="card-stats card3">
+            <div class="stat">
+            <div class="value"><a href="https://github.com/kevsaj/Weather-Dashboard" target="_blank" rel="noopener" aria-label="Github"><span class="iconify" data-icon="jam:github"
+              data-inline="false"></span>
+            <div class="type">Github Repo</div></a></div>
+          </div>
+          <div class="stat">
+            <div class="value"><a href="https://spacebookx.herokuapp.com/" target="_blank" rel="noopener"aria-label="Live Page" target="_blank" rel="noopener">
+              <span class="iconify" data-icon="tabler:live-photo" data-inline="false"></span>
+            <div class="type">Live Page</div></a></div>
+          </div>
+          </div>
+      </div>
+    </section>
+
+      <footer>
+        <div class="media spancss">
+          <a href="https://github.com/kevsaj" aria-label="Github"><span class="iconify" data-icon="jam:github"
+              data-inline="false"></span></a>
+          <a href=" " aria-label="Linkedin" target="_blank" rel="noopener"><span class="iconify"
+              data-icon="brandico:linkedin-rect" data-inline="false"></span></a>
+          <a href="mailto: " aria-label="gmail"><span class="iconify" data-icon="dashicons:email-alt"
+              data-inline="false"></span></a>
+        </div>
+        <p id="smalltext">
+          <span id="myName">Kevin Sajan</span><span id="year"> &copy;2020</span>
+        </p>
+      </footer>
     </>
   );
 }

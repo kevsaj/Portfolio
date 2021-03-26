@@ -6,10 +6,6 @@ import "./App.css";
 import './styles/tailwind.css'
 import './styles/styles.css'
 
-//components
-import Nav from "./components/Navbars/AuthNavbar.js";
-import Footer from "./components/Footers/Footer.js";
-
 //pages
 import Home from "./pages/home";
 import Contact from "./pages/contact";

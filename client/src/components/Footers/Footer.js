@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useLayoutEffect, useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
 
+import '../../styles/styles.css'
+
 export default function Footer() {
   return (
     <>
@@ -44,8 +46,7 @@ export default function Footer() {
                   className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <a href="https://www.linkedin.com/in/kevin-s-24700b203/" aria-label="Linkedin" target="_blank" rel="noopener"
-                      >
+                  <a href="https://www.linkedin.com/in/kevin-s-24700b203/" aria-label="Linkedin" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-linkedin"></i>
                       </a>
                   
@@ -54,9 +55,7 @@ export default function Footer() {
                   className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <a aria-label="Github" target="_blank" rel="noopener" 
-                        href="https://github.com/kevsaj"
-                      >
+                  <a aria-label="Github" target="_blank" rel="noopener noreferrer" href="https://github.com/kevsaj">
                         <i className="fab fa-github"></i>
                       </a>
                 </button>
@@ -72,7 +71,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://github.com/kevsaj" aria-label="Github" target="_blank" rel="noopener"
+                        href="https://github.com/kevsaj" aria-label="Github" target="_blank" rel="noopener noreferrer"
                       >
                         Github
                       </a>
@@ -80,7 +79,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.linkedin.com/in/kevin-s-24700b203/" aria-label="Linkedin" target="_blank" rel="noopener"
+                        href="https://www.linkedin.com/in/kevin-s-24700b203/" aria-label="Linkedin" target="_blank" rel="noopener noreferrer"
                       >
                         Linkedin
                       </a>
@@ -88,7 +87,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="mailto: kevsaj@gmail.com" aria-label="gmail" target="_blank" rel="noopener"
+                        href="mailto: kevsaj@gmail.com" aria-label="gmail" target="_blank" rel="noopener noreferrer"
                       >
                         Email
                       </a>
@@ -103,18 +102,18 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://github.com/kevsaj/Portfolio/blob/main/LICENSE" target="_blank" rel="noopener"
+                        href="https://github.com/kevsaj/Portfolio/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"
                       >
                         Apache-2.0 License
                       </a>
                     </li>
                     <li>
-                      <a
+                      <Link
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="#" 
+                        href="/contact" 
                       >
                         Contact
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>

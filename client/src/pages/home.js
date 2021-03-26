@@ -4,6 +4,7 @@ import { Link, useHistory } from "react-router-dom";
 import Navbar from "../components/Navbars/AuthNavbar.js";
 import Footer from "../components/Footers/Footer.js";
 
+import '../styles/styles.css'
 
 export default function Index() {
   return (
