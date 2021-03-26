@@ -1,24 +1,31 @@
 import React, { useState, useEffect, useLayoutEffect, useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
+import {useImage} from 'react-image';
+import ReactImageFallback from "react-image-fallback";
 
-import Navbar from "../components/Navbars/AuthNavbar.js";
+
 import Footer from "../components/Footers/Footer.js";
 
 import '../styles/styles.css'
 
+function MyImageComponent() {
+  const {src} = useImage({
+    srcList: 'https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80',
+    useSuspense: false
+  })
+ 
+  return <img src={src} />
+}
+
 export default function Index() {
   return (
     <>
-      <Navbar transparent />
+    
       <main className="profile-page">
         <section className="relative block h-500-px">
           <div
-            className="absolute top-0 w-full h-full bg-center bg-cover"
-            style={{
-              backgroundImage:
-                "url('https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80')",
-            }}
-          >
+            
+          > <MyImageComponent className="absolute top-0 w-full h-full bg-center bg-cover" />
             <span
               id="blackOverlay"
               className="w-full h-full absolute opacity-50 bg-black"
@@ -51,11 +58,8 @@ export default function Index() {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
                     <div className="relative">
-                      <img
-                        alt="..."
-                        src="https://i.postimg.cc/m2GRvQYn/Fox-Mulder.jpg"
-                        className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
-                      />
+                      <ReactImageFallback className="shadow-xl z-50 rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px" src="https://i.postimg.cc/Y2PpZjV5/cartoon3.jpg" fallbackImage="https://i.postimg.cc/m2GRvQYn/Fox-Mulder.jpg" />
+                      
                     </div>
                   </div>
                   <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useLayoutEffect, useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
 
-import '../../styles/styles.css'
+// import '../../styles/styles.css'
 
 export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);

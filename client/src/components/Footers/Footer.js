@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useLayoutEffect, useContext } from "react";
 import { Link, useHistory } from "react-router-dom";
 
-import '../../styles/styles.css'
+// import '../../styles/styles.css'
 
 export default function Footer() {
   return (
@@ -104,7 +104,7 @@ export default function Footer() {
                         className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
                         href="https://github.com/kevsaj/Portfolio/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"
                       >
-                        Apache-2.0 License
+                        MIT License
                       </a>
                     </li>
                     <li>
@@ -117,23 +117,6 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-          <hr className="my-6 border-gray-400" />
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div className="text-sm text-gray-600 font-semibold py-1">
-                Copyright © {new Date().getFullYear()}
-                </div>
-                <br></br>
-                <div>
-                <a
-                  href="https://www.creative-tim.com?ref=nnjs-footer"
-                  className="text-gray-600 hover:text-gray-900"
-                >
-                  Kevin Sajan
-                </a>
               </div>
             </div>
           </div>
