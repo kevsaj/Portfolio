@@ -1,30 +1,28 @@
-# Portfolio
+# Google-Books-Search
 
 ## Table of Contents
 
-This is my README for Assignment 2
+This is my Portfolio
 * [Installation](#installation)
 * [Usage](#Usage)
 * [Credits](#Credits)
 * [License](#License)
 
+Page will be live: [on Heroku]()
 
-![Image of site](/img/logo.gif "demo")
-
-Page is live: [HERE](https://kevsaj.github.io/Portfolio/index.html)
-
+![Should Look like this lol]()
 
 # Installation
-* Learn Everything
+* Learn offline MERN magic!
 * Get Motivated
-* Create Portfolio to meet criteria
+* Create Budget Tracker to meet criteria
 * Upload to Github 
 
 # Usage
-* To practice EVERYTHING
+* To practice with MERN and React
 
 # Credits
 * The Universe - thanks
 
 # License
-* [MIT License](https://github.com/kevsaj/Portfolio/blob/main/LICENSE)
+* [MIT]()
